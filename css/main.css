@@ -1,0 +1,103 @@
+@import "vendor/normalize.min.css";
+@import "vendor/solarized-dark.min.css";
+
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%
+}
+
+body {
+    margin: 0;
+}
+
+a:focus {
+    outline: thin dotted;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+pre {
+    margin: 1em 0 white-space : pre;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+pre code {
+    display: block;
+}
+
+::-moz-selection {
+    text-shadow: none;
+}
+
+::selection {
+    text-shadow: none;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    padding: 0.2em 0;
+}
+
+@font-face {
+    font-family: "Bitstream Vera Sans";
+    src: url(../fonts/veramono.ttf);
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #002b36;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    width: 100%
+}
+
+pre {
+    margin: 10px;
+    min-width: 622px
+}
+
+code {
+    font-size: 150%;
+    font-family: "Bitstream Vera Sans", monospace;
+}
+
+pre code h1, pre code h2 {
+    display: inline;
+    font-weight: normal;
+    font-size: 1em;
+}
+
+pre code .symbols-array, pre code a {
+    color: #2aa198;
+
+}
+
+pre code a {
+    text-decoration: none;
+}
+
+pre code .symbols-array a:hover, pre code a :hover {
+    text-decoration: underline;
+}
